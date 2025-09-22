@@ -1,3 +1,10 @@
+//
+//  visgraph_swift.swift
+//  visgraph-swift
+//
+//  Created by sabotzs on 22.09.25.
+//
+
 import JavaScriptKit
 
 @main
