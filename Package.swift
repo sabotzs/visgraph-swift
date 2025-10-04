@@ -14,5 +14,10 @@ let package = Package(
                 .product(name: "JavaScriptKit", package: "JavaScriptKit"),
             ]
         ),
+        .testTarget(
+            name: "visgraph-swift-unit-tests",
+            dependencies: ["visgraph-swift"],
+            path: "Tests"
+        )
     ]
 )
